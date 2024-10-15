@@ -153,8 +153,8 @@ body {
 .scrollbar {
     display: flex;
     overflow-x: auto;
-    margin-left: 16px;
-    padding: 0;
+    padding-left: 16px;
+    
 
 }
 
@@ -186,10 +186,7 @@ body {
     justify-content: start;
 }
 
-.content__main-text {
-    font-size: 18px;
-    margin-left: 16px;
-}
+
 
 .content__more {
     display: flex;
@@ -336,8 +333,8 @@ body {
         align-items: center;
         justify-content: space-between;
         height: 50px;
-        margin-top: 30px;
-        margin-bottom: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
 
     .main-navigation,
@@ -396,7 +393,7 @@ body {
         font-weight: 500;
         color: #1B1C21;
         background-image: none;
-        margin-left: 50px;
+        padding-left: 50px;
 
 
     }
@@ -418,6 +415,7 @@ body {
     .scrollbar {
         overflow: visible;
         flex-wrap: wrap;
+        padding-bottom: 15px;
     }
 
     .scrollbar__menu-link {
